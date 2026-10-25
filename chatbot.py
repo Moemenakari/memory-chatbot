@@ -15,7 +15,7 @@ from google.genai import types
 
 load_dotenv()
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 MAX_TURNS = int(os.getenv("MAX_TURNS", "10"))  # user+model pairs kept in memory
 
 SYSTEM_PROMPT = (
